@@ -1,5 +1,5 @@
 {
-
+"homepage": "https://Shifas0897.github,io/Netflix-sev",
   "name": "netflix_clone",
 
   "private": true,
@@ -9,6 +9,9 @@
   "type": "module",
 
   "scripts": {
+    /*"start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh pages -d build",*/
 
     "dev": "vite",
 
@@ -34,6 +37,10 @@
 
     "movie-trailer": "^3.2.2",
 
+    "node": "^20.18.1",
+
+    "nodemodule": "^0.3.0",
+
     "react": "^18.3.1",
 
     "react-dom": "^18.3.1",
@@ -45,6 +52,8 @@
   "devDependencies": {
 
     "@eslint/js": "^9.13.0",
+
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
 
     "@types/react": "^18.3.12",
 
@@ -62,8 +71,15 @@
 
     "globals": "^15.11.0",
 
+    "madge": "^8.0.0",
+
+    "react-refresh": "^0.14.2",
+
     "vite": "^5.4.10"
 
+    /*"dependency":{
+      "gh-pages": "^6.1.4"
+       "github-pages": "^ 3.0.2*/
   }
 
 }
