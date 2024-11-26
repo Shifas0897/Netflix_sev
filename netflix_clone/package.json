@@ -1,86 +1,44 @@
 {
-"homepage": "https://Shifas0897.github,io/Netflix-sev",
+  "homepage": "https://shifas0897.github.io/Netflix_sev",
   "name": "netflix_clone",
-
   "private": true,
-
   "version": "0.0.0",
-
   "type": "module",
-
   "scripts": {
-    /*"start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh pages -d build",*/
-
     "dev": "vite",
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
-
     "lint": "eslint .",
-
     "preview": "vite preview"
-
   },
-
   "dependencies": {
-
     "@emotion/react": "^11.13.5",
-
     "@emotion/styled": "^11.13.5",
-
     "@mui/icons-material": "^6.1.8",
-
     "@mui/material": "^6.1.8",
-
     "axios": "^1.7.7",
-
     "movie-trailer": "^3.2.2",
-
     "node": "^20.18.1",
-
     "nodemodule": "^0.3.0",
-
     "react": "^18.3.1",
-
     "react-dom": "^18.3.1",
-
     "react-youtube": "^10.1.0"
-
   },
-
   "devDependencies": {
-
     "@eslint/js": "^9.13.0",
-
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
-
     "@types/react": "^18.3.12",
-
     "@types/react-dom": "^18.3.1",
-
     "@vitejs/plugin-react": "^4.3.3",
-
     "eslint": "^9.13.0",
-
     "eslint-plugin-react": "^7.37.2",
-
     "eslint-plugin-react-hooks": "^5.0.0",
-
     "eslint-plugin-react-refresh": "^0.4.14",
-
+    "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
-
     "madge": "^8.0.0",
-
     "react-refresh": "^0.14.2",
-
     "vite": "^5.4.10"
-
-    /*"dependency":{
-      "gh-pages": "^6.1.4"
-       "github-pages": "^ 3.0.2*/
   }
-
 }
-
